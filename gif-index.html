@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +10,59 @@
     <script src="assets/javascript/gif-app.js"></script>
 
     <title>Gif Tastic</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/gif-style.css">
 </head>
+
 <body>
-    <button data-person="Naruto">Rasengan!</button>
-    <button data-person="Sasuke">Chidori!</button>
-    <button data-person="kakashi">Copy Cat Ninja</button>
-    <button data-person="Rinnegan">Rinnegan</button>
-    <div id="gifs">
+    <h1>ANIME CHARACTERS</h1>
+    <div id="animeButtons"></div>
+        <button data-person="Rasengan!">Rasengan!</button>
+        <button data-person="Sasuke">Chidori!</button>
+        <button data-person="kakashi">Copy Cat Ninja!</button>
+        <button data-person="Rinnegan">Rinnegan!</button>
+        <button data-person="Naruto Uzamaki">Naruto!</button>
+
+        <div id="gifs"></div>
 
     </div>
+    <br>
+    <br>
+
+    <!-- Where the gifs will show -->
+    <div id="gifs" style="float:left"></div>
+    <!-- Write in section -->
+    <div style="float:right; margin-top:90px;">
+        <h4>Add an Anime!</h4>
+        <form id="gif-form">
+            <label for="gif-input"></label>
+            <input type="text" value="" id="gif-input"><br><br>
+            <!--Creates the submit button-->
+            <input type="submit" name="Button" class="btn btn-success" id="theButton" style="margin-left:8px">
+        </form>
+    </div>
+
+
+    <!-- <div class="container" style="background: transparent;">
+            <h1 class="text-center">ANIME CHARACTERS</h1>
+            <br>
+            <br>
+            <div id="animeBtns"> </div>
+            <br>
+            <br>
+            <div class="container" id="btn" style="background: transparent;">
+                <form id="anime-form">
+                    <label id="add" for="anime-form">Enter an Anime!</label>
+                    <input type="text" class="form-control" id="anime-input">
+                    <br>
+                    <br>
+                </form>
+                <button onclick="submitBtnClick()"type="button" id="add-anime" class="btn btn-success">Submit</button>
+                <br>
+                <br>
+                <div id="anime"> </div>
+            </div>
+        </div> -->
 </body>
+
 </html>
