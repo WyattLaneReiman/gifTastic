@@ -1,5 +1,10 @@
 body {
-    background-color: lightgoldenrodyellow;
+    background-image: url(../images/anime-background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: none;
 }
 
 h1 {
@@ -15,7 +20,7 @@ button {
     margin: 10px;
     font-size: 15px;
     padding-bottom: 20px;
-    border: white solid 3px;
+    border: lightgoldenrodyellow solid 1px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -27,7 +32,10 @@ button {
 }
 
 #add-anime {
-    margin-left: 782px;
+    margin-left: 800px;
     margin-top: -15px;
     
+}
+#gif-form {
+    margin-top: 10px;
 }
