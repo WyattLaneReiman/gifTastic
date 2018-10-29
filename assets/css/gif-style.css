@@ -5,7 +5,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: none;
-    position: fixed;
+    position: absolute;
+    
 }
 
 h1 {

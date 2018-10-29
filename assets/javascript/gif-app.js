@@ -7,7 +7,7 @@ $(function () {
             $("#animeButtons").append("<button data-person="+ animeArray[i]+ ">"+animeArray[i]+"</button>")
         }
     }
-    renderButtons()
+    renderButtons();
 
 
     $("#animeButtons").on("click", "button",function () {
@@ -73,58 +73,7 @@ $(function () {
         animeArray.push(animeButton)
         renderButtons();
         console.log(animeButton )
-        //adds the new animal
-    
-        // queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animeButton + "&api_key=dc6zaTOxFJmzC&limit=10";
-        //     console.log(animeButton);
-    
-        // $.ajax({
-        // url: queryURL,
-        // method: 'GET'
-        // }).then(function(response){
-        //     var results =response.data;
-    
-        //     for(var i = 0; i < results.length; i++){
-        //         var animeDiv= $("<div>");
-        //         var p = $("<p>");
-        //         p.text(results[i].rating);
-        //         var animeImage= $("<img>");
-        //         animeImage.addClass("anImage");
-    
-        //         animeImage.attr("src", results[i].images.fixed_height_still.url);
-    
-        //         animeImage.attr("data-still", results[i].images.fixed_height_still.url);
-    
-        //         animeImage.attr("data-animate", results[i].images.fixed_height.url);
-    
-        //         attr("data-state", "still");
-        //         animeDiv.append(p);
-        //         animeDiv.append(animeImage);
-        //         animalDiv.prependTo($("#gifs"));
-        //     }
-    
-        //     $('.anImg').on('click', function() {
-                
-        //         var state = $(this).attr('data-state'); 
-        //         console.log(this);
-    
-        //         if (state == 'still') {
-                
-        //         $(this).attr('src', $(this).data('animate'));
-                
-        //         $(this).attr('data-state', 'animate');
-    
-        //         } else {
-                        
-        //         $(this).attr('src', $(this).data('still'));
-                
-        //         $(this).attr('data-state', 'still');
-        //         }      
-        //     });
-        // });
-    
-        // $("#gif-input").val("");
-        // return false;
+
     });
     
 
