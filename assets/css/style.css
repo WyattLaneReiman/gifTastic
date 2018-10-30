@@ -1,0 +1,51 @@
+body {
+    background-image: url(../images/anime-background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: none;
+    position: absolute;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5em;
+}
+
+button {
+    background-color: black;
+    color: lightgoldenrodyellow;
+    height: 25px;
+    margin: 10px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    border: lightgoldenrodyellow solid 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#animeBtns {
+    margin: auto;
+}
+#anime-form {
+    margin-left: 595px;
+}
+
+#add-anime {
+    margin-left: 800px;
+    margin-top: -15px;
+    
+}
+#gif-form {
+    margin-top: 10px;
+}
+h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+}
+
+#theButton {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
