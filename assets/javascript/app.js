@@ -12,7 +12,7 @@ $(function () {
 
     $("#animeButtons").on("click", "button",function () {
         var anime = $(this).attr("data-person");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + anime + "&api_key=dc6zaTOxFJmzC&limit=15";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + anime + "&api_key=dc6zaTOxFJmzC&limit=15";
 
 
         $.ajax({
